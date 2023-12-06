@@ -2,10 +2,10 @@ import { UserButton } from '@clerk/nextjs'
 
 export default function Home () {
   return (
-   <main>
+   <section>
     <UserButton
      afterSignOutUrl="/"
     />
-   </main>
+   </section>
   )
 }
