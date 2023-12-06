@@ -4,7 +4,8 @@ import { ClerkProvider } from '@clerk/nextjs'
 
 export const metadata: Metadata = {
   title: 'Samucademy',
-  description: 'Samucademy is a platform for learning and teaching online courses'
+  description: 'Samucademy is a platform for learning and teaching online courses',
+  icons: '/images/logo.svg'
 }
 
 export default function RootLayout ({
